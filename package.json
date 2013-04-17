@@ -1,0 +1,21 @@
+{
+	"name": "pegjs-require",
+	"description": "Require extension to load PEG.js files",
+	"author": {
+		"name":  "Daniel Balcomb",
+		"email": "daniel.balcomb@gmail.com"
+	},
+	"version": "0.0.1",
+	"main": "./index.js",
+	"repository": {
+		"type": "git",
+		"url":  "http://github.com/dbalcomb/pegjs-require.git"
+	},
+	"dependencies": {
+		"pegjs": ">= 0.7.0"
+	},
+	"keywords": ["pegjs", "require", "extension"],
+	"engines": {
+		"node": "*"
+	}
+}
