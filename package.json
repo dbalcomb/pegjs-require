@@ -13,7 +13,7 @@
 		"url":  "http://github.com/dbalcomb/pegjs-require.git"
 	},
 	"dependencies": {
-		"pegjs": ">= 0.8.0"
+		"pegjs": ">= 0.10.0"
 	},
 	"keywords": ["pegjs", "require", "extension"],
 	"engines": {
