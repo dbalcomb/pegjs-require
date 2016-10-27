@@ -7,6 +7,9 @@
 	},
 	"version": "1.0.0",
 	"main": "./lib/index.js",
+	"scripts": {
+		"test": "./node_modules/mocha/bin/mocha"
+	},
 	"license": "MIT",
 	"repository": {
 		"type": "git",
@@ -14,6 +17,9 @@
 	},
 	"dependencies": {
 		"pegjs": ">= 0.10.0"
+	},
+	"devDependencies": {
+		"mocha": "*"
 	},
 	"keywords": ["pegjs", "require", "extension"],
 	"engines": {
