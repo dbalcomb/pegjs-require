@@ -5,7 +5,7 @@ This is an extension that enables PEG.js grammars to be loaded via `require`.
 
 It is simply a shortcut to:
 
-	require('pegjs').buildParser(fs.readFileSync(filename, 'utf8'));
+	require('pegjs').generate(fs.readFileSync(filename, 'utf8'));
 
 # Install
 
